@@ -37,6 +37,7 @@ A network consisting of one CNN layer followed by a single layer LSTM cell. This
 The torchvision implementation of MobileNetV2 modified to accept single channel images as input.
 
 ## Results
+The table below contains the teacher and student architecture used along with the various training methodologies studied and the micro AUPRC obtained for each case. BCE refers to training using only binary cross-entropy loss, BCE + KD uses the knowledge distillation loss as well, BCE + KD + SP considers the similarity preserving loss along with the other two losses.
 
 | Teacher model | Student model | BCE | BCE + KD | BCE + KD + SP |
 |---|---|---|---|---|
