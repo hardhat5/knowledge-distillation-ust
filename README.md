@@ -46,6 +46,10 @@ The torchvision implementation of MobileNetV2 modified to accept single channel 
 
 From the table, it can be observed that similarity preserving knowledge distillation seems to be effective when both the student and the teacher model have similar model architectures.
 
+<p align="center">
+	<img src='https://github.com/hardhat5/knowledge-distillation-ust/blob/master/images/activation_map.jpg' height=100/>
+</p>
+
 ## References
 1. [DCASE 2019 Task 5: Urban Sound Tagging](http://dcase.community/challenge2019/task-urban-sound-tagging)
 2. [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
