@@ -13,6 +13,7 @@ The models and hyperparameters for the teacher and student can be changed from t
 Options for the teacher model include: <br>
 1. `dcase_net`
 2. `mobilenetv2` 
+
 Select the required value of width multiplier for `mobilenetv2`
 Options for the student model include: <br>
 1. `dcase_small`
@@ -20,6 +21,9 @@ Options for the student model include: <br>
 3. `mobilenetv2`
 
 ## Implemented Approaches
+Two approaches were reviewed and implemented for knowledge distillation:
+1. <b>[Softmax activation based](https://arxiv.org/abs/1503.02531)  knowledge distillation</b>
+2. <b>[Similarity preserving](https://openaccess.thecvf.com/content_ICCV_2019/papers/Tung_Similarity-Preserving_Knowledge_Distillation_ICCV_2019_paper.pdf) knowledge distillation </b> 
 
 ## Results
 
