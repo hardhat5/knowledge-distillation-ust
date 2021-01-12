@@ -1,7 +1,7 @@
 # Knowledge Distillation for Urban Sound Tagging
 
 ## Problem Statement
-Apply knowledge distillation to the Urban Sound Tagging task (Task 5) of the DCASE 2019 contest.
+Apply knowledge distillation to the [Urban Sound Tagging task (Task 5)](http://dcase.community/challenge2019/task-urban-sound-tagging) of the DCASE 2019 contest.
 
 ## How to Run
 1. Run `make_mel.py` to generate the mel spectrograms
@@ -26,6 +26,12 @@ Two approaches were reviewed and implemented for knowledge distillation:
 2. <b>[Similarity preserving](https://openaccess.thecvf.com/content_ICCV_2019/papers/Tung_Similarity-Preserving_Knowledge_Distillation_ICCV_2019_paper.pdf) knowledge distillation </b> 
 
 ## Results
+
+| Teacher model | Student model | BCE Loss | BCE + KD loss | BCE + KD + SP Loss |
+|---|---|---|---|---|
+| DCASE Net | DCASE Small | 0.751 | 0.762 | 0.772 |
+| DCASE Net | CNN-LSTM | 0.680 | 0.692 | 0.673 |
+| MobileNetV2 (1.0) | MobileNetV2 (0.0005) |0.659 | 0.687||
 
 ## References
 
