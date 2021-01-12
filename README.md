@@ -47,7 +47,7 @@ The torchvision implementation of MobileNetV2 modified to accept single channel 
 From the table, it can be observed that similarity preserving knowledge distillation seems to be effective when both the student and the teacher model have similar model architectures.
 
 <p align="center">
-	<img src='https://github.com/hardhat5/knowledge-distillation-ust/blob/master/images/activation_map.jpg' height=100/>
+	<img src='https://github.com/hardhat5/knowledge-distillation-ust/blob/master/images/activation_map.jpg'/>
 </p>
 
 ## References
