@@ -27,13 +27,13 @@ Two approaches were reviewed and implemented for knowledge distillation:
 2. <b>[Similarity preserving](https://openaccess.thecvf.com/content_ICCV_2019/papers/Tung_Similarity-Preserving_Knowledge_Distillation_ICCV_2019_paper.pdf) knowledge distillation </b> 
 
 ## Models used
-1. DCASE Net
+1. DCASE Net:
 This model is taken from the [third placed team](http://dcase.community/documents/challenge2019/technical_reports/DCASE2019_Kim_107.pdf) of the DCASE 2019 contest.
-2. DCASE Small
+2. DCASE Small:
 A model similar to DCASE Net but with lesser number of channels per layer.
-3. CNN-LSTM
+3. CNN-LSTM:
 A network consisting of one CNN layer followed by a single layer LSTM cell. This model has been described in [this](https://indico2.conference4me.psnc.pl/event/35/contributions/2907/) paper.
-4. MobileNetV2
+4. MobileNetV2:
 The torchvision implementation of MobileNetV2 modified to accept single channel images as input.
 
 ## Results
